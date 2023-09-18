@@ -15,9 +15,14 @@
                 <h1>Piatto della settimana</h1>
             </div>
             
+            <!-- ELEMENTO SELEZIONATO -->
+            <div class="col-lg-4 offset-lg-4 mt-4" id="result">
+                <!-- code in script.js -->
+            </div>
+            
             <!-- SELECT -->
             <div class="col-lg-4 offset-lg-4 mt-4">
-                <select class="form-select" aria-label="Default select example" onchange="cambiaGiorno(this)">
+                <select id="giorni" name="giorni" class="form-select" aria-label="Default select example" onchange="cambiaGiorno(giorni)">
                     <option selected>Giorni della settimana</option>
                     <option value="1">Lunedì</option>
                     <option value="2">Martedì</option>
@@ -28,12 +33,6 @@
                     <option value="7">Domenica</option>
                 </select>
             </div>
-            
-            <!-- ELEMENTO SELEZIONATO -->
-            <div class="col-lg-4 offset-lg-4 mt-4" id="result">
-                <!-- code in script.js -->
-            </div>
-            
             
         </div>
         
